@@ -74,18 +74,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="112"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eyL-PB-qc6">
-                                            <rect key="frame" x="16" y="11" width="83" height="90"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eyL-PB-qc6">
+                                            <rect key="frame" x="22" y="12" width="83" height="90"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="83" id="DgJ-WV-ON0"/>
                                                 <constraint firstAttribute="height" constant="90" id="Fvb-5c-7TW"/>
-                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="83" id="Q5Z-eh-Qry"/>
-                                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="XqJ-9q-59U"/>
-                                                <constraint firstAttribute="width" constant="83" id="i6I-6u-DUh"/>
-                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="90" id="yoM-f7-IBN"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kai-ra-JQh">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kai-ra-JQh">
                                             <rect key="frame" x="113" y="11" width="211" height="24"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="2Sw-Fo-R9M"/>
@@ -98,8 +94,8 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRa-wD-kj8">
-                                            <rect key="frame" x="113" y="43" width="239" height="58"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet Content" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRa-wD-kj8">
+                                            <rect key="frame" x="113" y="45" width="239" height="57"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="58" id="gPq-dI-aTp"/>
                                                 <constraint firstAttribute="width" constant="239" id="tzD-8j-Mpm"/>
@@ -110,8 +106,14 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="eyL-PB-qc6" secondAttribute="bottom" constant="10" id="6zG-57-tYZ"/>
                                         <constraint firstItem="Kai-ra-JQh" firstAttribute="top" secondItem="rxR-Xd-ci5" secondAttribute="topMargin" id="JJR-SC-WMI"/>
                                         <constraint firstItem="Kai-ra-JQh" firstAttribute="leading" secondItem="eyL-PB-qc6" secondAttribute="trailing" constant="8" id="MQA-Sn-x2R"/>
+                                        <constraint firstItem="fRa-wD-kj8" firstAttribute="leading" secondItem="Kai-ra-JQh" secondAttribute="leading" id="QIh-6F-LAz"/>
+                                        <constraint firstAttribute="bottom" secondItem="fRa-wD-kj8" secondAttribute="bottom" constant="10" id="YZw-l5-6RZ"/>
+                                        <constraint firstItem="fRa-wD-kj8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Kai-ra-JQh" secondAttribute="bottom" constant="10" id="jIE-zz-wcq"/>
+                                        <constraint firstItem="eyL-PB-qc6" firstAttribute="leading" secondItem="rxR-Xd-ci5" secondAttribute="leadingMargin" constant="6" id="ofz-KY-tSV"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="fRa-wD-kj8" secondAttribute="trailing" constant="7" id="x6g-5V-lCu"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
