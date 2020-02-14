@@ -12,6 +12,7 @@
 		550B257623ED0D6D00241A07 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B257523ED0D6D00241A07 /* LoginViewController.swift */; };
 		550B257823ED139600241A07 /* homeTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550B257723ED139600241A07 /* homeTableTableViewController.swift */; };
 		5513351323F4CF4200DBE115 /* TweetCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5513351223F4CF4200DBE115 /* TweetCellTableViewCell.swift */; };
+		55793E7A23F6404A00139296 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55793E7923F6404A00139296 /* TweetViewController.swift */; };
 		6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF52521DF07FC00451C03 /* AppDelegate.swift */; };
 		6EBCF52B21DF07FC00451C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBCF52921DF07FC00451C03 /* Main.storyboard */; };
 		6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */; };
@@ -24,6 +25,7 @@
 		550B257523ED0D6D00241A07 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		550B257723ED139600241A07 /* homeTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeTableTableViewController.swift; sourceTree = "<group>"; };
 		5513351223F4CF4200DBE115 /* TweetCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellTableViewCell.swift; sourceTree = "<group>"; };
+		55793E7923F6404A00139296 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		6EBCF52221DF07FC00451C03 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBCF52521DF07FC00451C03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBCF52A21DF07FC00451C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -76,15 +78,16 @@
 		6EBCF52421DF07FC00451C03 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
-				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
-				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
+				550B257523ED0D6D00241A07 /* LoginViewController.swift */,
 				6EBCF52521DF07FC00451C03 /* AppDelegate.swift */,
+				6EBCF52921DF07FC00451C03 /* Main.storyboard */,
 				37D29B8521F90E3400984A88 /* Assets.xcassets */,
 				6EBCF53121DF07FE00451C03 /* Info.plist */,
-				550B257523ED0D6D00241A07 /* LoginViewController.swift */,
+				6EBCF54321E047A500451C03 /* TwitterAPICaller.swift */,
 				550B257723ED139600241A07 /* homeTableTableViewController.swift */,
 				5513351223F4CF4200DBE115 /* TweetCellTableViewCell.swift */,
+				6EBCF54D21E71F9400451C03 /* Launch Screen.storyboard */,
+				55793E7923F6404A00139296 /* TweetViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			files = (
 				550B257623ED0D6D00241A07 /* LoginViewController.swift in Sources */,
 				550B257823ED139600241A07 /* homeTableTableViewController.swift in Sources */,
+				55793E7A23F6404A00139296 /* TweetViewController.swift in Sources */,
 				6EBCF54421E047A500451C03 /* TwitterAPICaller.swift in Sources */,
 				5513351323F4CF4200DBE115 /* TweetCellTableViewCell.swift in Sources */,
 				6EBCF52621DF07FC00451C03 /* AppDelegate.swift in Sources */,
